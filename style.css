@@ -1,0 +1,104 @@
+
+/*=======================================================
+	
+                    G o o d L u c k 
+
+=========================================================*/
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+  background-color:whitesmoke;
+  animation: drop 1.0s ease;
+  padding: 30px;
+ 
+}
+
+
+.hello {
+    font-size: 80px;
+    animation: drop 1.5s ease;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.time {
+    text-align: center;
+    font-size: 50px;
+    color:#333333;
+    border: 10px solid seagreen;
+    border-left-color: orchid;
+    border-right-color: steelblue;
+    border-bottom-color: orange;
+    animation: drop 1.5s ease;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+
+
+.logo-container {
+    text-align: center;
+    animation: drop 1.5s ease;
+}
+
+
+
+.logo {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #333;
+    font-size: 30px;
+    
+	
+}
+
+
+
+.cover {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	height: 30vh;
+}
+.cover img {
+	height: 100%;
+	animation: drop 1.5s ease;
+    cursor: pointer;
+}
+
+
+
+
+
+@keyframes drop {
+	0% {
+		opacity: 0;
+		transform: translateY(-80px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.timm {
+        font-size: 45px;
+	}
+	.cover img {
+		height: 80%;
+	}
+
+}
+
+footer {
+    padding:50px;
+    text-align: center;
+    background-color: rgba(221, 221, 221, 0.534);
+    margin-bottom: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
