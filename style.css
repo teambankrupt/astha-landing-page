@@ -4,7 +4,10 @@
                     G o o d L u c k 
 
 =========================================================*/
-
+@font-face {
+    font-family: 'bauhaus'; /*a name to be used later*/
+    src: url('fonts/bauhaus.ttf'); /*URL to font*/
+}
 
 ::-webkit-scrollbar {
     display: none;
@@ -15,6 +18,15 @@ body {
   animation: drop 1.0s ease;
   padding: 30px;
  
+}
+
+
+.app-name {
+    font-size: 50px;
+    animation: drop 1.5s ease;
+    text-align: center;
+    font-family: 'bauhaus', sans-serif;
+    color: #19a337;
 }
 
 
